@@ -1,4 +1,7 @@
 # AEG
+
+## Feature
+* solve non-determined menu-type
 * detect and exploit heap vulnerable model in how2heap
 * use bounded model which motivated by heaphopper
 * merge and update scripts in Zerotool
