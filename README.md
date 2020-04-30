@@ -6,6 +6,11 @@
 * use bounded model which motivated by heaphopper
 * merge and update scripts in Zerotool
 
+#### Specify vulnerabilities to detect: 
++ arbitrary write
++ allocations over already allocated memory
++ allocations over non-heap-memory
++ freeing of fake chunks
 
 ## Input Source
 * input-type: STDIN

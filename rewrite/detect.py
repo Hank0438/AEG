@@ -131,7 +131,8 @@ class ReadInspect(angr.SimProcedure):
 
 proj.hook(addr=malloc_plt, hook=MallocInspect(malloc_addr=malloc_addr))
 proj.hook(addr=free_plt, hook=FreeInspect(free_addr=free_addr))
-proj.hook(addr=read_plt, hook=ReadInspect())
+if (read_plt):
+    proj.hook(addr=read_plt, hook=ReadInspect())
 
 
 # class ProjectSummary(angr.Analysis):

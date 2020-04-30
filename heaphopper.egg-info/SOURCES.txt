@@ -1,0 +1,10 @@
+README.md
+setup.py
+heaphopper.egg-info/PKG-INFO
+heaphopper.egg-info/SOURCES.txt
+heaphopper.egg-info/dependency_links.txt
+heaphopper.egg-info/requires.txt
+heaphopper.egg-info/top_level.txt
+rewrite/__init__.py
+rewrite/detect.py
+rewrite/test.py
